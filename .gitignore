@@ -1,0 +1,5 @@
+# Local agent tooling metadata (contains local absolute paths)
+.atl/
+
+# OpenCode backups created by the pairing scripts
+*.bak-*

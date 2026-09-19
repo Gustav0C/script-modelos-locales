@@ -1,0 +1,40 @@
+name: 💡 Propuesta de idea / mejora
+description: Comparte una idea para aportar al proyecto sin necesidad de tocar código
+title: "idea: "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto / problema
+      description: ¿Qué situación te llevó a esta idea? ¿Qué te frustra o qué te gustaría que existiera?
+      placeholder: "Ej.: cuando la red cambia, el cliente se queda con la IP vieja y hay que reconfigurar..."
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: Describe tu idea con el detalle que tengas. No hace falta que sea una solución completa ni código.
+      placeholder: "Ej.: que la opción 3 Vuelva a detectar la IP del servidor automáticamente si ya está configurado..."
+    validations:
+      required: false
+  - type: dropdown
+    id: alcance
+    attributes:
+      label: ¿A qué afectaría?
+      options:
+        - No lo sé / depende
+        - A un script (nombra cuál en la propuesta)
+        - Al menú (opciones nuevas o cambiadas)
+        - A la documentación (README)
+        - A la seguridad de los scripts
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Notas extra
+      description: Cualquier cosa que ayude a entender la idea (capturas, comandos, contexto de tu PC).
+    validations:
+      required: false
