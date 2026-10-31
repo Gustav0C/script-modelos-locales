@@ -2,6 +2,9 @@
 
 **Qué es esto:** usa la PC potente (servidor con Ollama) como cerebro, y tu PC (cliente con OpenCode) se conecta a ella por Tailscale. **Resultado:** escribes en OpenCode con un modelo remoto como `ollama-remoto/qwen2.5-coder:7b`.
 
+<img width="976" height="403" alt="Portafolioimage" src="https://github.com/user-attachments/assets/d9b48062-02f6-48b0-bda9-f32c69109b73" />
+
+
 > Si solo quieres que funcione, lee hasta **Uso fácil**. Lo demás es referencia.
 
 ## Qué necesito
